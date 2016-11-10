@@ -1,0 +1,254 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  /*background: -webkit-linear-gradient(left, #f00 50%, #f 50%);
+  background: -moz-linear-gradient(left, #f00 50%, #f00 50%);
+  background: -o-linear-gradient(left, #f00 50%, #f00 50%);
+  background: linear-gradient(to right, #f00 50%, #f00 50%);}-->*/
+}
+
+header {
+  padding: 20px 0 0 0;
+}
+
+header .row,
+footer .row {
+  display: flex;
+  align-items: center;
+}
+
+header h1 {
+  font-weight: 700;
+  margin: 0;
+}
+
+header nav {
+  display: flex;
+  background-color: black;
+  line-height: 50px;
+  justify-content: center;
+}
+
+header p {
+  padding: 0 20px;
+  margin: 0;
+  color: white;
+}
+
+.logo img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto 
+}
+
+/* unvisited link */
+a:link {
+    color: white;
+}
+
+/* visited link */
+a:visited {
+    color: white;
+}
+
+/* mouse over link */
+a:hover {
+    color: rgb(240,154,33);
+}
+
+/* selected link */
+a:active {
+    color: blue;
+}
+
+.jumbotron {
+  display: flex;
+  align-items: center;
+  background-image: url('file:///C:/Users/KenSiew/Dropbox/923%20Group%20LLC/Website/Delaware%20Real%20Estate.jpeg');
+  background-size: cover;
+  color: #ffffff;
+  height: 500px;
+  text-shadow: 0.25px 0.25px 0.25px #000000;
+}
+
+.jumbotron h2 {
+  font-size: 60px;
+  font-weight: 700;
+  margin: 0;
+  color: #fff;
+}
+
+.jumbotron h3 {
+  margin: 0 0 20px;
+  color: #fff;
+}
+
+section .row img {
+  margin: 0 0 30px;
+  width: 100%;
+}
+
+.col-md-6 {
+  margin: 0 0 30px;
+}
+
+.btn.btn-primary {
+  border-radius: 2px;
+  border: 0px;
+  color: #ffffff;
+  text-shadow: none;
+  background-color: rgb(20,33,52);
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+#center-button {
+  display: block;
+}
+
+.btn.btn-primary:hover {
+  color: #ffffff;
+  background-color: rgb(20,33,52);
+}
+
+.btn-secondary {
+  background-color: #E8DFE0;
+  color: #ffffff;
+  margin: 0 0 30px;
+}
+
+footer {
+  font-size: 12px;
+  padding: 20px 0;
+}
+
+footer .col-sm-8 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer li img {
+  width: 32px;
+  height: 32px;
+}
+
+.container img {
+  max-width: 100%;
+  max-height: 100%;
+ } 
+
+.container h1 {
+  text-align: center;
+  font-weight: bold;
+}
+
+.container h2 {
+  text-align: center;
+  font-weight: bold;
+}
+
+.container h3 {
+  text-align: center;
+  font-weight: bold;
+}
+
+.container p {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.container li {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+/*span {
+    display: block;
+    text-align: center;
+}*/
+
+.full-width {
+  background: rgb(240,154,33)
+}
+
+.full-width-2 {
+  background: rgb(240,154,33)
+}
+
+.full-width-3 {
+  background: rgb(20,33,52)
+}
+
+#icons {
+  text-align: center;
+}
+
+#icons h2 {
+  color: red;
+}
+
+#investing-process {
+  text-align: center;
+  color: #fff
+}
+
+#wechat-us {
+  text-align: center;
+  color: #fff
+}
+
+#why-923 {
+  color: #fff;
+}
+
+#intro {
+  color: #fff;
+}
+
+#wrapper {
+  padding-left: 150px;
+  transition: all 0.4s ease 0s;
+}
+
+#sidebar-wrapper {
+  margin-top: 100px;
+  margin-left: -150px;
+  left: 150px;
+  width: 150px;
+  background: #CD0000;
+  position: fixed;
+  height: 350px;
+  overflow-y: auto;
+  z-index: 1000;
+  transition: all 0.4s ease 0s;
+}
+
+.sidebar-nav {
+  position: absolute;
+  top: 10px;
+  width: 150px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-weight: bold;
+  font-size: 1.5em;
+  text-align: center;
+}
+
+#sidebar-wechat-QR {
+  margin-top: 170px;
+  margin-left: 10.5px;
+  width: 125px;
+}
+
+.thumbnail:hover {
+  transform:scale(2,2);
+  transform-origin:0 0;
+  position: relative;
+  z-index: 999;
+}
