@@ -64,7 +64,7 @@ a:active {
 .jumbotron {
   display: flex;
   align-items: center;
-  background-image: url('http://923groupllc.com/images/Delaware%20Real%20Estate.jpeg');
+  background-image: url(./images/Delaware%20Real%20Estate.jpeg);
   background-size: cover;
   color: #ffffff;
   height: 500px;
