@@ -304,6 +304,5 @@ span {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  width: 150px;
-  height: 150px;
+  max-height: 150px;
 }
