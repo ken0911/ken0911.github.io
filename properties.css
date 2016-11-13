@@ -306,9 +306,10 @@ span {
   justify-content: center;
 }
 
-img:hover {
+/*img:hover {
     transform:scale(2,2);
   transform-origin:0 0;
   position: relative;
   z-index: 999;
 }
+*/
