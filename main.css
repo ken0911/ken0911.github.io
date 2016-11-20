@@ -207,6 +207,10 @@ footer li img {
 
 #intro {
   color: #fff;
+}
+
+#intro ul{
+  list-style-type: none;
   text-align: center;
 }
 
