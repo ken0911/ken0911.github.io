@@ -183,6 +183,14 @@ footer li img {
   background: rgb(20,33,52)
 }
 
+.full-width-benefit {
+  background: rgb(7,182,239)
+}
+
+.full-width-success {
+  background: rgb(7,182,239)
+}
+
 #icons {
   text-align: center;
 }
@@ -268,4 +276,30 @@ footer li img {
 #testimonial2 {
   background-color: #fff;
   padding: 10px;
+}
+
+#benefit {
+  background-color: rgb(7,182,239);
+}
+
+#benefit ul{
+  list-style-type: none;
+  text-align: center;
+  padding: 0px;
+  margin: 0px;
+  color: white;
+  font-size: 1.3em;
+}
+
+#success {
+  background-color: rgb(7,182,239);
+}
+
+#success ul{
+  list-style-type: none;
+  text-align: left;
+  padding: 0px;
+  margin: 0px;
+  color: white;
+  font-size: 1.3em;
 }
